@@ -2,7 +2,7 @@
 
 mkdir -p ws-rmf_demos/src
 cd ws-rmf_demos/src
-git clone --recursive https://github.com/osrf/rmf_demos.git
+git clone --recursive https://github.com/siot-decada-robotics/rmf_demos.git
 cd ..
 
 sudo apt install -y wget
@@ -16,4 +16,3 @@ rosdep update
 rosdep install --from-paths src --ignore-src --rosdistro foxy -yr
 
 colcon build --cmake-args -DCMAKE_BUILD_TYPE=RELEASE
-
