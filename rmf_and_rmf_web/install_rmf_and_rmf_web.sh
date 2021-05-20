@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo "================================================= remove ros-foxy-rmf from apt ==========================================="
 sudo apt remove '^ros-foxy-rmf-.*' -y
 echo "================================================= install rmf from => https://github.com/open-rmf/rmf ===================="
