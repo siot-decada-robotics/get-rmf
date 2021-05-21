@@ -7,6 +7,8 @@ source setup.bash
 ```
 Once setup.bash is sourced, goto the directory of which you want to store the workspaces ie. $HOME <br>
 all commands from here-on should be executed in this directory
+<br><br>
+** please source ros2 before running these commands
 
 ## rmf demos
 Installation:

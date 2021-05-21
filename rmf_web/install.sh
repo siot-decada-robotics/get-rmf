@@ -18,6 +18,6 @@ function install_rmfweb {
 
 	cd rmf-web
 	npm install -g lerna@4
-
+	cd ../..
 }
 
