@@ -2,8 +2,8 @@
 
 echo " -> setup_rmfweb"
 function setup_rmfweb {
-	cd ws-rmf_web/rmf-web
+	cd ws-rmf_web/
 	lerna bootstrap
-	cd ../..
+	cd ../
 }
 
