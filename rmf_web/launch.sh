@@ -2,9 +2,6 @@
 
 echo " -> launch_rmfweb"
 function launch_rmfweb {
-	cd ws-rmf_web/rmf-web
-	cd packages/dashboard
-	npm start
-	cd ../../../..
+	npm start --prefix ws-rmf_web/packages/dashboard
 }
 

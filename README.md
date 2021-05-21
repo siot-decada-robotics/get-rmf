@@ -5,10 +5,13 @@ This repository contains setup scripts for rmf related workspaces.
 ``` bash
 source setup.bash
 ```
-Once setup.bash is sourced, goto the directory of which you want to store the workspaces ie. $HOME <br>
+Once setup.bash is sourced, go to the directory of which you want to store the workspaces ie. $HOME <br>
 all commands from here-on should be executed in this directory
 <br><br>
-** please source ros2 before running these commands
+** please source ros2 foxy before running these commands
+``` bash
+source /opt/ros/foxy/setup.bash
+```
 
 ## rmf demos
 Installation:
@@ -16,10 +19,19 @@ Installation:
 install_rmfdemos
 ```
 
-Build:
+Build (Remember that you must build from the ws-rmf_demos directory):
 ``` bash
 build_rmfdemos
 ```
+
+Launch: <br>
+This steps requires rmf demos to be sourced
+``` bash
+source ws-rmf_demos/install/setup.bash
+launch_rmfdemos
+```
+open rmf demo panel at http://localhost:5000/
+
 
 ## rmf web
 Installation:
