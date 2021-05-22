@@ -47,7 +47,7 @@ setup_rmfweb
 If you encounter 
 " Your Chrome version is null
 lerna ERR! npm install stderr:
-ChromeDriver installation failed TypeError: Cannot read property '1' of null "
+ChromeDriver installation failed TypeError: Cannot read property '1' of null ",
 install chrome
 
 Launch: <br>
