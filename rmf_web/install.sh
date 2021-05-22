@@ -11,6 +11,6 @@ function install_rmfweb {
 	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 	nvm install 14
 	pip3 install pipenv
-	npm install -g --prefix ws-rmf_web/. lerna@4
+	npm install -g lerna@4
 }
 
