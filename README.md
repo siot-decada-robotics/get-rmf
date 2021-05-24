@@ -52,3 +52,24 @@ Launch: <br>
 launch_rmfweb
 ```
 
+## freefleet
+Freefleet workspaces are seperated into client and server
+<br> <br>
+Installation:
+``` bash
+# Server
+install_freefleet_server
+
+# Client
+install_freefleet_client
+```
+
+Build
+``` bash
+# Server
+build_freefleet_server
+
+# Client
+build_freefleet_client
+```
+
