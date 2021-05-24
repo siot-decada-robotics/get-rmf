@@ -2,7 +2,7 @@
 This repository contains setup scripts for rmf related workspaces.
 
 ## FAQ
-Answers to frequently asked questions can be found [here](docs/faq.md).
+Answers to frequently asked questions can be found [here](docs/common_errors.md).
 
 ## setup
 ``` bash
