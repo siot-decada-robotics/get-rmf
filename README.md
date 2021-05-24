@@ -1,6 +1,9 @@
 # get-rmf
 This repository contains setup scripts for rmf related workspaces.
 
+## FAQ
+Answers to frequently asked questions can be found [here](docs/faq.md).
+
 ## setup
 ``` bash
 source setup.bash
