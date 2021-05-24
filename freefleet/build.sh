@@ -12,7 +12,7 @@ function build_freefleet_server {
 echo " -> build_freefleet_client"
 function build_freefleet_client {
 	cd ws-freefleet/ws-client
-	source /opt/ros/foxy/setup.bash
+	source /opt/ros/noetic/setup.bash
 	colcon build --cmake-args -DCMAKE_BUILD_TYPE=RELEASE
 	cd ../..
 }
