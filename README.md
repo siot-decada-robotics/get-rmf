@@ -44,12 +44,6 @@ This steps requires rmf demos to be installed and sourced
 ``` bash
 setup_rmfweb
 ```
-If you encounter the error
-" Your Chrome version is null
-lerna ERR! npm install stderr:
-ChromeDriver installation failed TypeError: Cannot read property '1' of null ",
-solve this by installing chrome
-
 Launch: <br>
 ``` bash
 launch_rmfweb
