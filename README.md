@@ -12,9 +12,6 @@ Once setup.bash is sourced, go to the directory of which you want to store the w
 all commands from here-on should be executed in this directory
 <br><br>
 ** please source ros2 foxy before running these commands
-``` bash
-source /opt/ros/foxy/setup.bash
-```
 
 ## rmf demos
 Installation:
