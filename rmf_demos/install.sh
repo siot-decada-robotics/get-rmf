@@ -13,7 +13,7 @@ function install_rmfdemos {
 	sudo apt update
 	python3 -m pip install flask-socketio
 
-	git clone --recursive https://github.com/siot-decada-robotics/rmf-packages.git ws-rmf_demos/src
+	git clone --recursive -b rmf_demos https://github.com/siot-decada-robotics/rmf-packages.git ws-rmf_demos/src/
 	
 	sudo rosdep init
 	rosdep update
