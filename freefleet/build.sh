@@ -3,7 +3,14 @@
 echo " -> build_freefleet_server"
 function build_freefleet_server {
 	cd ws-freefleet/ws-server
-	source /opt/ros/foxy/setup.bash
+	pattern="ws-server"
+	distro="foxy"
+
+	check_signs $pattern $distro
+	if [[ $? == 1 ]]; then
+		exit 1
+	fi
+
 	colcon build --cmake-args -DCMAKE_BUILD_TYPE=RELEASE
 	cd ../..
 }
@@ -12,7 +19,14 @@ function build_freefleet_server {
 echo " -> build_freefleet_client"
 function build_freefleet_client {
 	cd ws-freefleet/ws-client
-	source /opt/ros/noetic/setup.bash
+	pattern="ws-client"
+	distro="noetic"
+
+	check_signs $pattern $distro
+	if [[ $? == 1 ]]; then
+		exit 1
+	fi
+
 	colcon build --cmake-args -DCMAKE_BUILD_TYPE=RELEASE
 	cd ../..
 }
