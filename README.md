@@ -40,7 +40,7 @@ install_rmfweb
 ```
 
 Setup: <br>
-This steps requires rmf demos to be installed and sourced
+These steps requires rmf demos to be installed and sourced
 ``` bash
 setup_rmfweb
 ```
