@@ -25,7 +25,7 @@ build_rmfdemos
 ```
 
 Launch: <br>
-This steps requires rmf demos to be sourced
+This steps require rmf demos to be sourced
 ``` bash
 source ws-rmf_demos/install/setup.bash
 launch_rmfdemos
