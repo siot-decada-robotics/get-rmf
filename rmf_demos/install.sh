@@ -17,7 +17,7 @@ function install_rmfdemos {
 	
 	sudo rosdep init
 	rosdep update
-	rosdep install --from-paths . --ignore-src --rosdistro foxy -yr
+	rosdep install --from-paths src --ignore-src -r -y
 }
 
 
