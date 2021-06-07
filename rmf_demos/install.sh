@@ -17,7 +17,7 @@ function install_rmfdemos {
 	
 	sudo rosdep init
 	rosdep update
-	rosdep install --from-paths src --ignore-src -r -y
+	rosdep install --from-paths ws-rmf_demos/src --ignore-src -r -y
 }
 
 
